@@ -8,6 +8,16 @@ body {
   background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+p {
+    font-size: 16px;
+  }
+
+/* header styles grouped together */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -42,15 +52,7 @@ body {
   margin-left: 25px;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-p {
-  font-size: 16px;
-}
-
+/* hero image and style */
 .hero {
   height: 800px;
   width: 100%;
@@ -60,15 +62,43 @@ p {
   background-position: center;
 }
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
+/* content styles grouped together */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  /* applies to all content block article elements */
+  .content-block article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+  }
+  
+  /* applies to all content block img elements */
+  .content-block img {
+    max-height: 200px;
+  }
+  
+  .float-left {
+      float: left;
+      margin-right: 25px;
+    }
+    
+    .float-right {
+      float: right;
+      margin-left: 25px;
+    }
+  
+  /* applies to all content block h2 elements */
+  .content-block h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
 
 /* benefit styles grouped together */
 .benefits {
@@ -87,11 +117,6 @@ p {
   color: #ffffff;
 }
 
-/* applies margin to all paragraph elements in benefit block */
-.benefit-block p {
-  margin-bottom: 32px;
-}
-
 /* shared among all h3 elements in the benefit block */
 .benefit-block h3 {
   margin-bottom: 10px;
@@ -105,33 +130,10 @@ p {
   max-width: 150px;
 }
 
-/* content styles grouped together */
-.content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
-}
-
-/* applies to all content block section elements */
-.content-block article {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-/* applies to all content block img elements */
-.content-block img {
-  max-height: 200px;
-}
-
-/* applies to all content block h2 elements */
-.content-block h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
+/* applies margin to all paragraph elements in benefit block */
+.benefit-block p {
+    margin-bottom: 32px;
+  }
 
 .footer {
   padding: 30px;
