@@ -2,9 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- The motivation for this project is to assist marketing agency's goal in becoming more accessible online and deliver a website optimized for search engines. This project enables Horiseon, the marketing agency, to embody the core of its existence by boosting its online visibility with improved accessibility standards in the source code. 
+The motivation for this project is to assist marketing agency's goal in becoming more accessible online and deliver a website optimized for search engines. This project enables Horiseon, the marketing agency, to embody the core of its existence by boosting its online visibility with improved accessibility standards in the source code. 
 
 While refactoring the code to meet these standards, all elements are checked for functionality and efficiency for long-term sustainability. Links are functioning correctly, CSS selectors and properties are consolidated for readability, semantic structures are improved in the HTML, and comments mark sections and elements appropriately.
 
